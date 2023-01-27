@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+div.fish{
+    color: green;
+}
+
+/* Також можна звератится до 2 классів одночасно за допомогою "," */
+
+/* Також можна використовувати "*" вона будет примінятися для всіх елементів */
+
+/* Також можна  */
+
+.fish ~ p {
+    color: blue;
+}
+
+
+.two > p {
+    color: gold;
+}
+
+.three + p{
+color: green;
+}
+
+.three + p{
+    color: rgb(42, 241, 102);
+}
+
+.thour * {
+    color: brown;
+}
+
+[class*="black"] {
+    color: deeppink;
+}
+
+
+
