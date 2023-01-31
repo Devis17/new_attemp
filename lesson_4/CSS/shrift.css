@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Alef:300,500,700&display=swap");
+
+@font-face {
+    font-family: 'Appetite';
+    src: url('../fonts/Appetite-Italic.woff2') format('woff2'),  url('../fonts/Appetite-Italic.woff') format('woff');
+    font-weight: normal;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sunday';
+    src: url('../fonts/Sunday-Regular.woff2') format('woff2'),
+        url('../fonts/Sunday-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

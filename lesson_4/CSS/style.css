@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+@import url(shrift.css);
+
+body{
+    font-size: 16px;
+    font-family:"Appetite",'Times New Roman', sans-serif;
+    font-weight: 300;
+}
+
+.haigli{
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+div.divs > p{
+    color: rgba(105, 128, 0, 0.646);
+    text-shadow: 1px 1px 1px red;
+    font-family: "Sunday", 'Times New Roman', sans-serif ;
+    font-size: 14px;
+    line-height: 2.1;
+    white-space: normal;
+    letter-spacing:normal;
+    text-indent: 35px;
+    font-style: oblique;
+    text-align: justify;
+}
+
+.complicted{
+    text-align: center;
+    color: green;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.wrap,
+.imgue{
+    text-align: center;
+}
+
+.opportunities{
+    font-size: 24px;
+    color: darkgray;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.two{
+    font-size: 18px;
+    text-shadow: 3px 5px 3px cornflowerblue, -3px 2px 4px red;
+    letter-spacing: normal;
+    text-indent: 35px;
+}
+
+[class*="meat"]{
+    font-size: 18px;
+    color: brown;
+    text-shadow: 5px 5px 5px rgb(237, 100, 132);
+    text-decoration:line-through;
+}
+
+li.description{
+    color: green;
+    text-shadow: 5px 3px 5px orangered;
+    text-decoration: underline;
+}
+
+.closed{
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(128, 43, 0);
+}
+
+.closeds{
+    font-size: 18px;
+    line-height: 200%;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 8px rgb(52, 45, 6);
+}
