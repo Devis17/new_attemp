@@ -1,0 +1,125 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,500,600,700&display=swap");
+
+@import url(restet.css);
+
+/* ------------------------------------------------------------------------------- */
+
+body{
+
+}
+/* -------------------------------------------------------------------------------------- */
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
+[class*="__container"]{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.hedaer {
+    min-height: 600px;
+    background: #7c8893 url(../img/01.png) center / cover no-repeat;
+    padding: 0 15px;
+}
+
+.header__container {
+    font-family: "Poppins", sans-serif;
+    padding: 330px 0 100px 0;
+}
+
+.header__date {
+    color: #E5E5E5;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.66;
+}
+.header__title {
+    font-size: 25px;
+    color: #F8F9FA;
+    line-height: 1.6;
+    font-weight: 700;
+    max-width: 605px;
+}
+.header__text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.66;
+    color: #E5E5E5;
+}
+
+.main {
+    background: rgb(244,247,255);
+    background: linear-gradient(131deg, rgba(244,247,255,1) 77%, rgba(208,217,242,1) 83%, rgba(222,224,246,1) 85%, rgba(38,112,255,1) 211%);
+    min-height: 560px;
+}
+.main__container  {
+    padding-top: 145px;
+    background: url(../img/speaker\ 1.jpg) 100%  no-repeat;
+
+}
+
+.main__info {
+}
+.main__price {
+    color: #3056D3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 13px;
+}
+.main__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212B36;
+    line-height: 1.25;
+    max-width: 470px;
+    margin-bottom: 15px;
+}
+.main__text {
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 35px;
+    color: #637381;
+    max-width: 570px;
+}
+.main__button {
+    background-color: #3056D3;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #E5E5E5;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+.section {
+}
+.section__container {
+    margin: 100px 0;
+}
+
+.section__item{
+    margin-bottom: 50px;
+}
+
+.section__item li {
+    margin-bottom: 10px;
+    background: url(../img/cross-circle\ \(1\)\ 1.png) 0 2px  / 13px no-repeat;
+    padding-left: 18px;
+    min-height: 15px;
+    
+}
+.section__list {
+}
+
+.section__sab-item li {
+    margin-bottom: 10px;
+    background: url(../img/arrow-right\ \(7\)\ 1.png) 0 2px / 13px no-repeat;
+    padding-left: 18px;
+    min-height: 15px;
+}
+.section__sab-list {
+}
