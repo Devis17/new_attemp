@@ -1,0 +1,186 @@
+
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,500,600,700,800&display=swap");
+
+
+body{
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    background-color: bisque ;
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+.header {
+    background-color: #148cb8;
+}
+
+[class*="__container"]{
+    max-width: 1170px;
+    padding: 15px 0 ;
+    margin: 0 auto;
+}
+
+
+.header__container > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header__logo {
+    margin-right: 44.61px;
+    max-width: 100%;
+}
+.header__menu   {
+    margin-right: 154.2px;
+
+}
+
+.menu__list{
+    position: relative;
+}
+
+.menu__link_backgraund{
+    background: #F4F7FF url("/img/mark.svg")   140px center  no-repeat;
+    border-radius: 5px;
+    padding: 9px 44.61px 9px 20.39px ;
+    color: #212B36;
+    font-weight: 600;
+}
+
+.menu__link:hover{
+    color: #3056D3;
+}
+
+.menu__link_mark{
+    padding-right: 20px;
+    display: inline-block;
+    background: url("/img/mark.svg") 75px center no-repeat ;
+}
+.menu__link_mark{
+}
+
+.menu {
+}
+.menu__item  > *{
+    display: inline-block ;
+}
+.menu__item > *:not(:last-child)  {
+    margin-right: 30px;
+}
+
+
+
+
+.header__like > *:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+.menu__block {
+    width: 180px;
+    height: 253px;
+    background-color: #FFF;
+    padding: 22px 24px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    visibility: 1;
+    transition: all 0.3s;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.menu__list:hover .menu__block{
+    visibility: visible;
+    opacity: 1;
+}
+
+.block__link_mark{
+    padding-right: 70px;
+    width: 9.31px;
+    height: 5px;
+    background: url("/img/mark.right.svg") 125px center no-repeat;
+}
+
+.block {
+}
+.block__menu{
+    
+    
+}
+
+.block__menu > *:not(:last-child) {
+    margin-bottom: 13px;
+}
+.block__list{
+    font-weight: 500;
+}
+
+.block__link{
+}
+
+.block__link:hover {
+    color: #3056D3;
+}
+
+.block__page-menu > *{
+    display: inline-block;
+}
+
+.block__page-menu   {
+background-color: #FFF;
+width: 652px;
+height: 308px;
+position: absolute;
+top: 10%;
+left: 100%;
+padding: 30px;
+border-radius: 5px;
+line-height: 1.5;
+}
+.block__sab-menu_margin-right  {
+}
+
+.block__sab-menu{
+}
+
+.block__title {
+    margin-bottom: 20px;
+}
+.block__sab-item > *:not(:last-child){
+    margin-bottom: 12px;
+}
+
+.block__sab-item{
+
+}
+
+.block__sab-list {
+}
+.block__sab-link:hover {
+    color: #3056D3;
+}
+.block__baner {
+    position: relative;
+}
+
+.block__imagess{
+
+}
+
+.block__info{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+.header__search {
+}
+.header__heart {
+}
+.header__basket {
+}
+
