@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__title">Billing Details</div>
+                <form action="#" method="get" class="main__billing-form billing">
+                    <div class="billing__section">
+                        <div class="billing__section-input">
+                            <input type="text" required name="firstname" placeholder="First name*"
+                                class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="text" required name="lastname" placeholder="Last name*" class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="text" required name="adress" placeholder="Address*" class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="text" name="rezervadress" placeholder="Address line 2" class="billing__input">
+                        </div>
+                        <div class="billing__section-select billing__section-input">
+                            <select class="billing__select billing__input" required name="country">
+                                <option value="01">Country*</option>
+                                <option value="02">Usa</option>
+                                <option value="03">UK</option>
+                                <option value="04">MD</option>
+                            </select>
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="text" name="City" required placeholder="City/Town*" class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="number" name="zip-code" required placeholder="Postcode / ZIP*"
+                                class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="tel" name="phone" required placeholder="Phone*" class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="number" name="zip-code" required placeholder="Postcode / ZIP*"
+                                class="billing__input">
+                        </div>
+                        <div class="billing__section-input">
+                            <input type="tel" name="phone" required placeholder="Phone*" class="billing__input">
+                        </div>
+                        <div class="billing__section-textarea">
+                            <textarea class="billing__textarea" minlength="30" name="text"
+                                placeholder="Additional information"></textarea>
+                        </div>
+                    </div>
+                    <div class="billing__radio-button">
+                        <div class="billing__section-radio">
+                            <input type="checkbox" id="radio-01" name="input-1" class="billing__radio-input">
+                            <label for="radio-01" class="billing__radio-label">Create Account</label>
+                        </div>
+                        <div class="billing__section-radio">
+                            <input id="radio-02" name="input-2" checked type="checkbox" class="billing__radio-input">
+                            <label for="radio-02" class="billing__radio-label">Ship to a different address?</label>
+                        </div>
+                    </div>
+                    <div class="billing__apply apply">
+                        <div class="apply__title">Apply Coupon to get discount!</div>
+                        <div class="apply__section">
+                            <input class="apply__input" type="text" name="applycode" value="" minlength="6"
+                                placeholder="Coupon code">
+                            <button class="apply__button">Apply Code</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="main__change-container">
+                <form action="" class="main__shipping-form shipping">
+                    <div class="shipping__title title-common">Shipping Address</div>
+                    <div class="shipping__section">
+                        <div class="shipping__form">
+                            <label for="login-email" class="shipping__label">Email Address<span>*</span></label>
+                            <input id="login-email" placeholder="roni_cost@example.com" type="email" required
+                                name="email" class="shipping__input">
+                        </div>
+                        <div class="shipping__form">
+                            <label for="login-password" class="shipping__label">Password</label>
+                            <input id="login-password" placeholder="*********************" type="password"
+                                name="password" class="shipping__input">
+                        </div>
+                        <div class="shipping__form">
+                            <label for="login-zip" class="shipping__label">Zip/Postal Code</label>
+                            <input id="login-zip" type="text" name="zipcode" class="shipping__input">
+                        </div>
+                        <div class="shipping__text">You already have an account with us. Sign in or continue as guest.
+                        </div>
+                        <div class="shipping__section-login">
+                            <button class="shipping__button">
+                                login
+                            </button>
+                            <a href="#" class="shipping__link">Forgot Your Password?</a>
+                        </div>
+                    </div>
+                </form>
+                <form action="#" method="post" class="main__forms forms">
+                    <div class="forms__container">
+                        <div class="forms__item">
+                            <label for="login-name" class="forms__label">First Name<span>*</span></label>
+                            <input id="login-name" required type="text" class="forms__input">
+                        </div>
+                        <div class="forms__item">
+                            <label for="login-lastname" class="forms__label">Last Name<span>*</span></label>
+                            <input id="login-lastname" required type="text" class="forms__input">
+                        </div>
+                        <div class="forms__item">
+                            <label for="company" class="forms__label">Company</label>
+                            <input id="company" type="text" class="forms__input">
+                        </div>
+                        <div class="forms__item forms__item--gap">
+                            <label for="street-address-1" class="forms__label">Street Address<span>*</span></label>
+                            <input id="street-address-1" type="text" class="forms__input">
+                            <label for="street-address-2" class="forms__label"></label>
+                            <input id="street-address-2" type="text" class="forms__input">
+                            <label for="street-address-3" class="forms__label"></label>
+                            <input id="street-address-3" type="text" class="forms__input">
+                        </div>
+                        <div class="forms__item">
+                            <label for="login-lastname" class="forms__label">Country<span>*</span></label>
+                            <input id="login-lastname" required type="text" class="forms__input">
+                        </div>
+                        <div class="forms__select-container ">
+                            <label for="login-lastname" class="forms__label">State/Province<span>*</span></label>
+                            <select name="text" class="forms__select forms__input ">
+                                <option value="" class="forms__iption">Please select a region, state or province
+                                </option>
+                                <option value="" class="forms__iption">USA</option>
+                                <option value="" class="forms__iption">UK</option>
+                                <option value="" class="forms__iption">MR</option>
+                            </select>
+                            <img src="img/03.svg" alt="check" class="forms__img">
+                        </div>
+                    </div>
+                    <div class=" forms__title title-common">
+                        Shipping Methods
+                    </div>
+                    <div class="forms__methods-container methods">
+                        <div class="methods__section">
+                            <input type="radio" checked id="radio-1" name="price" class="methods__input">
+                            <label for="radio-01" class="methods__label methods__label_change
+                            ">$5.00</label>
+                            <label for="radio-01" class="methods__label">Fixed</label>
+                            <label for="radio-01" class="methods__label">Flat Rate</label>
+                        </div>
+                        <div class="methods__section">
+                            <input type="radio" id="radio-2" name="price" class="methods__input">
+                            <label for="radio-02" class="methods__label methods__label_change">$10.00</label>
+                            <label for="radio-02" class="methods__label">Table Rate</label>
+                            <label for="radio-02" class="methods__label">Best Way Lorem ipsum dolor sit.</label>
+                        </div>
+                    </div>
+                    <div class="forms__button-container">
+                        <button type="submit" class="forms__button-next">next</button>
+                        <button type="reset" class="forms__button-back">Back</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+
+</html>
